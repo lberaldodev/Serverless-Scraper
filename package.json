@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.738.0",
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "env-var": "^6.3.0",
+    "node-url-shortener": "^1.1.10",
+    "twilio": "^3.49.0"
+  },
+  "scripts": {
+    "local": "sls invoke local -f price-scraper",
+    "production": "sls invoke -f price-scraper"
+  }
+}
